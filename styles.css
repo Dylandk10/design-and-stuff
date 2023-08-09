@@ -20,8 +20,8 @@ html {
 nav {
   width: 100%;
   position: fixed;
-  background-color: rgb(17, 64, 79);
   z-index: 120;
+  background-color: rgba(17, 64, 79, 0.4);
 }
 
 footer {
@@ -33,6 +33,22 @@ footer {
 /* utilities*/
 .floatRight {
   float: right;
+}
+
+.navColorFadeIn {
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: rgb(17, 64, 79);
+}
+
+.navColorFadeOut {
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: rgba(17, 64, 79, 0.4);
 }
 
 /* Class based driver*/
