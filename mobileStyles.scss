@@ -22,6 +22,7 @@ html {
     width: 100%;
     position: fixed;
     background-color: rgb(17, 64, 79);
+    z-index: 120;
   }
   
   /* utilities*/
@@ -40,6 +41,7 @@ html {
 .mobileNav {
     display: block;
     padding: 7px;
+    position: relative;
 }
 
 a {
@@ -47,9 +49,10 @@ a {
   text-decoration: none;
 }
 
-.p-menu1{
-   height: 100%;
-}
+
+
+
+
 
 
 
@@ -64,6 +67,7 @@ a {
   justify-items: center;
   z-index: 120;
   float: right;
+  position: relative;
 }
 
 .hamburger1 div {
@@ -74,6 +78,7 @@ a {
   margin-top: 7px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  position: relative;
 }
 
 #toggle1 {
@@ -101,6 +106,9 @@ a {
   height: 340px;
 }
 
+.p-menu1{
+  height: 100%;
+}
 
 /* Menu */
 .menu1 {
@@ -122,6 +130,7 @@ a {
   z-index: 120;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  
 }
 
 .menu1 a:first-child {
