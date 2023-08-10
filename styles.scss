@@ -126,7 +126,6 @@ footer {
 .heroForm {
     color: #555;
     display: flex;
-    padding: 2px;
     border: 1px solid white;
     border-radius: 5px;
     margin: 0 0 30px;
@@ -171,6 +170,45 @@ footer {
     outline: none;
   }
 
+  .recentSearch {
+    display: none;
+    top: 0;
+    float: left;
+    overflow: hidden;
+    max-width: 500px;
+    vertical-align: middle;
+  }
+
+  
+  .heroLabel {
+    color: white;
+    font-size: 28px;
+  }
+
+  /* chip for hero search */
+
+  .chip {
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: rgba(17, 17, 102, 0.299);
+    vertical-align: middle;
+  }
+  
+  
+  .closebtn {
+    padding-left: 12px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: #000;
+  }
 
   /* About section */
 
@@ -205,6 +243,7 @@ footer {
         border-radius: 5px;
         border: none;
         padding: 2px;
+        font-size: 24px;
       }
 
       .aboutGridContainer {
