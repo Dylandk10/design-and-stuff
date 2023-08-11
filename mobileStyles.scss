@@ -155,3 +155,16 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
+
+//search
+.recentSearch {
+  display: none;
+  top: 0;
+  max-width: 500px;
+  vertical-align: middle;
+  max-width: 700px !important;
+  max-height: 35px;
+  white-space: wrap;
+}

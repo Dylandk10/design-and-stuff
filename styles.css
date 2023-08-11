@@ -160,13 +160,16 @@ footer {
 .recentSearch {
   display: none;
   top: 0;
-  float: left;
-  overflow: hidden;
   max-width: 500px;
   vertical-align: middle;
+  max-width: 700px !important;
+  max-height: 35px;
+  white-space: nowrap;
+  float: left;
 }
 
 .heroLabel {
+  float: left;
   color: white;
   font-size: 28px;
 }
@@ -175,14 +178,19 @@ footer {
 .chip {
   display: inline-block;
   padding: 5px;
+  margin-left: 5px;
   font-size: 18px;
   border-radius: 25px;
   background-color: rgba(17, 17, 102, 0.299);
   vertical-align: middle;
 }
 
+#chipContent, #chipContent2 {
+  color: white;
+}
+
 .closebtn {
-  padding-left: 12px;
+  padding-left: 8px;
   color: white;
   font-weight: bold;
   float: right;

@@ -50,11 +50,19 @@
             <h1 class="heroTitle">Adventure Awaits</h1>
             <div class="heroFormContainer">
                 <form class="heroForm">
-                    <input id="heroSearch" class="heroSearch" type="search" placeholder="Search...">
+                    <input id="heroSearch" class="heroSearch" type="search" maxlength="28" placeholder="Search...">
                     <button id="heroBtn" class="heroSubmit">Search</button>
                 </form>
                 <div id="recentSearch" class="recentSearch">
-                    <span id="searches" class="heroLabel">Recent Search:  </span>
+                    <span id="searches" class="heroLabel">Recent Search: </span>
+                    <div class="chip" id="chip1">
+                        <span id="chipContent"></span>
+                        <span class="closebtn" onclick='hideChip(1, this)'> &times;</span>
+                    </div>
+                    <div class="chip" id="chip2">
+                        <span id="chipContent2"></span>
+                        <span class="closebtn" onclick='hideChip(2, this)'> &times;</span>
+                    </div>
                 </div>
               </div>
         </div>
