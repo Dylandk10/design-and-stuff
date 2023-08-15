@@ -15,9 +15,9 @@
 
             <!-- desktop navigation-->
             <ul class="desktopNav">
-                <li class="navContainer"><a href="">Home</a></li>
-                <li class="navContainer"><a href="">About</a></li>
-                <li class="navContainer"><a href="">Team</a></li>
+                <li class="navContainer"><a href="#hero">Home</a></li>
+                <li class="navContainer"><a href="#about">About</a></li>
+                <li class="navContainer"><a href="#projects">Projects</a></li>
                 <li class="navContainer floatRight"><a hred="">Logo</a></li>
             </ul>
 
@@ -33,9 +33,9 @@
                   </label>
                 
                   <div class="menu1">
-                    <a class="link1" href="">Home</a>
-                    <a class="link1" href="">About</a>
-                    <a class="link1" href="">Team</a>
+                    <a class="link1" href="#hero">Home</a>
+                    <a class="link1" href="#about">About</a>
+                    <a class="link1" href="#projects">projects</a>
                     <a class="link1 kbutton-nav" href="">Contact</a>
                   </div>
                 </div>
@@ -46,11 +46,11 @@
 
 
         <!-- HERO banner -->
-        <div class="heroContainer">
+        <div class="heroContainer" id="hero">
             <h1 class="heroTitle">Adventure Awaits</h1>
             <div class="heroFormContainer">
                 <form class="heroForm">
-                    <input id="heroSearch" class="heroSearch" type="search" maxlength="28" placeholder="Search...">
+                    <input id="heroSearch" class="heroSearch" type="search" maxlength="22" placeholder="Search...">
                     <button id="heroBtn" class="heroSubmit">Search</button>
                 </form>
                 <div id="recentSearch" class="recentSearch">
@@ -69,7 +69,7 @@
 
 
         <!-- about section-->
-        <div class="aboutContainer">
+        <div class="aboutContainer" id="about">
             <div class="unskew">
                 <h1 class="title">About Me</h1>
                 <div class="aboutGridContainer">
@@ -97,8 +97,143 @@
             </div>
         </div>
 
+
+
+
+        <!-- projects section-->
+        <div class="projectsContainer" id="projects">
+            <div class="unskewProject">
+                <h1 class="projectTitle">Projects</h1>
+
+                <div class="cardContainer">
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">OSRS Private Server</h1>
+                            <ul>
+                                <li>Java</li>
+                                <li>MySQL</li>
+                                <li>3D Graphics</li>
+                                <li>Open Source</li>
+                                <li>Java Swing</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">Python Chatbot</h1>
+                            <ul>
+                                <li>Python</li>
+                                <li>Flask</li>
+                                <li>MySQL</li>
+                                <li>Chatterbot Libaray</li>
+                                <li>JavaScript</li>
+                                <li>Socket.io</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">Awaken To Peace</h1>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>React.js</li>
+                                <li>MySQL</li>
+                                <li>WordPress</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">Pick My Professor</h1>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>React.js</li>
+                                <li>MongoDB</li>
+                                <li>Material.UI</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">OSRS Fan Site</h1>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>SQLite</li>
+                                <li>JavaScript</li>
+                                <li>JQuery</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1 class="cardTitle">Design Site</h1>
+                            <ul>
+                                <li>SCSS</li>
+                                <li>JQuery</li>
+                                <li>HTML</li>
+                                <li>Gulp</li>
+                                <li>JavaScript</li>
+                            </ul>
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <footer>
-            Test footer
+           <p>Dylan Kelly Design Website </p> 
         </footer>
     </body>
     <script src="js/script.js"></script>
