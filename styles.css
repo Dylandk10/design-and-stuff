@@ -18,6 +18,10 @@ html {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   width: 100%;
   position: fixed;
