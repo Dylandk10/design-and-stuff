@@ -246,6 +246,7 @@ footer {
         font-size: 62px;
         font-weight: normal;
         text-decoration: underline;
+        color: $solidBlue;
       }
       
       .text{
@@ -303,6 +304,7 @@ footer {
   .projectTitle {
     font-size: 62px;
     font-weight: normal;
+    color: $solidBlue;
   }
 
   .cardContainer {
@@ -390,4 +392,28 @@ footer {
         list-style-type: none;
         color: rgb(222, 220, 220);
       }
+  }
+
+  #bioHeader {
+    padding-top: 40px;
+    text-align: center;
+    color: $solidBlue;
+    font-size: 52px;
+  }
+
+  #bioContainer {
+    padding: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: space-evenly;
+
+    p {
+        font-size: 17px;
+    }
+
+  }
+
+  #coderImg {
+    width: 550px;
   }
