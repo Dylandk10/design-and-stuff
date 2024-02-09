@@ -160,6 +160,18 @@ a {
   transition: all 0.3s ease;
 }
 
+#bioContainer {
+  padding: 50px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: space-evenly;
+
+  p {
+      font-size: 1.2em;
+  }
+
+}
 
 
 //search

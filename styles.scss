@@ -408,7 +408,7 @@ footer {
     padding: 50px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, 350px);
+    grid-template-columns: repeat(auto-fit, 40%);
     justify-content: space-evenly;
 
     p {
@@ -423,14 +423,12 @@ footer {
     padding: 10px;
     box-shadow: 3px 3px 80px grey;
   }
-
   .bioImageSection {
     text-align: center;
-    box-shadow: 3px 3px 80px grey;
-    height: 250px;
   }
 
   #coderImg {
+    box-shadow: 3px 3px 80px grey;
     min-width: 70%;
     max-width: 90%;
   
