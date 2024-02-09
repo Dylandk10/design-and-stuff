@@ -417,8 +417,20 @@ footer {
 
   }
 
-  #coderImg {
+  .bioSection {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 80px grey;
+  }
+
+  .bioImageSection {
     text-align: center;
+    box-shadow: 3px 3px 80px grey;
+    height: 250px;
+  }
+
+  #coderImg {
     min-width: 70%;
     max-width: 90%;
   
