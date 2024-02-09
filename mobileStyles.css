@@ -7,13 +7,8 @@ html {
   -ms-box-sizzing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: auto;
 }
 
-body {
-  width: 100%;
-  overflow: auto;
-}
 * {
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -21,6 +16,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
 }
 
 nav {
@@ -102,7 +101,7 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: 340px;
+  height: 300px;
 }
 
 .p-menu1 {
@@ -142,7 +141,7 @@ a {
 .link1 {
   width: 100%;
   margin: 0;
-  font: 700 20px "Oswald", sans-serif;
+  font: 300 20px "Oswald", sans-serif;
   color: black;
 }
 
@@ -156,9 +155,7 @@ a {
 .recentSearch {
   display: none;
   top: 0;
-  min-width: 300px;
   vertical-align: middle;
-  max-width: 700px !important;
   max-height: 35px;
   white-space: wrap;
 }

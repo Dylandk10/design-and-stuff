@@ -22,6 +22,10 @@ html{
     padding: 0;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -73,7 +77,7 @@ footer {
 
 .roundImage {
     border-radius: 50%;
-    width: 250px;
+    width: 60%;
 }
 
 /* Class based driver*/
@@ -107,7 +111,8 @@ footer {
 /* hero banner */
 
 .heroContainer {
-    height: 660px;
+    width: 100%;
+    height: 500px;
     background-image: url('assets/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,15 +134,14 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    width: 400px;
+    width: 80%;
   }
   
 .heroForm {
     color: #555;
     display: flex;
     border: 1px solid white;
-    border-radius: 5px;
-    margin: 0 0 30px;
+    
   }
   
 .heroSearch {
@@ -148,7 +152,7 @@ footer {
     color: inherit;
     border: 1px solid transparent;
     border-radius: inherit;
-    width: 400px;
+    width: 90%;
   }
   
 .heroSearch::placeholder {
@@ -158,7 +162,7 @@ footer {
 .heroSubmit {
     text-indent: -999px;
     overflow: hidden;
-    width: 40px;
+    width: 50px;
     padding: 0;
     margin: 0;
     border: 1px solid transparent;
@@ -182,9 +186,7 @@ footer {
   .recentSearch {
     display: none;
     top: 0;
-    max-width: 500px;
     vertical-align: middle;
-    max-width: 700px !important;
     max-height: 35px;
     white-space: nowrap;
     float: left;
@@ -196,7 +198,8 @@ footer {
   .heroLabel {
     float: left;
     color: white;
-    font-size: 28px;
+    font-size: 1em;
+
   }
 
   /* chip for hero search */
@@ -205,7 +208,7 @@ footer {
     display: inline-block;
     padding: 5px;
     margin-left: 5px;
-    font-size: 18px;
+    font-size: 1em;
     border-radius: 25px;
     background-color: rgba(17, 17, 102, 0.299);
     vertical-align: middle;
@@ -311,13 +314,13 @@ footer {
     padding-top: 30px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, 250px);
     justify-content: space-evenly;
 
     .flip-card {
         background-color: transparent;
-        width: 400px;
-        height: 300px;
+        width: 250px;
+        height: 400px;
         perspective: 1000px;
         margin-top: 15px;
       }
@@ -398,18 +401,18 @@ footer {
     padding-top: 40px;
     text-align: center;
     color: $solidBlue;
-    font-size: 52px;
+    font-size: 3em;
   }
 
   #bioContainer {
     padding: 50px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, 350px);
     justify-content: space-evenly;
 
     p {
-        font-size: 17px;
+        font-size: 1.2em;
     }
 
   }
